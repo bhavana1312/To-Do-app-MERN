@@ -1,0 +1,30 @@
+POST http://localhost:3000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Walk the dog"
+}
+
+###
+GET http://localhost:3000/todos
+
+###
+POST http://localhost:3000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Walk the dog"
+}
+
+###
+DELETE http://localhost:3000/todo/delete/
+
+###
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "name":"John",
+    "email": "John123@gmail.coms",
+    "password": "112233"
+}
